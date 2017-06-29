@@ -1,0 +1,387 @@
+body{
+	margin: 0px;
+	font-family: lato, arial, sans-serif;
+}
+
+footer{
+	background-color: #262626;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,ol,a,p{
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+
+h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-style: normal;
+	font-size: 1rem;
+}
+
+h4{
+	font-style: normal;
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+}
+
+time{
+	font-size: 0.8rem;
+}
+
+
+.wrapper{
+	width: 1060px;
+	margin:auto;
+	overflow: auto;
+}
+
+/*HEADER*/
+
+header{
+	background-color: black;
+	height:60px;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 1px 5px rgba(0,0,0,.15);
+}
+
+.logo{
+	float: left;
+	margin-top: 13px;
+}
+
+nav{
+	padding: 23px 0px 20px 0px;	
+	float: left;
+	margin-left: 40px;
+}
+
+.menu{
+	text-transform: uppercase;
+	margin-right: 40px;
+	color: #ccc;
+	font-size: 1rem;
+}
+
+.menu_signin{
+	text-transform: uppercase;
+	margin-right: 40px;
+	color: #de8ae5;
+	font-size: 1rem;
+}
+
+.menu_signin:hover{
+	text-transform: uppercase;
+	margin-right: 40px;
+	color: #f9b2ff;
+	font-size: 1rem;
+}
+
+.menu:hover{
+	color:white;
+}
+
+.nav_left{
+	float: left;
+}
+
+.nav_icons_container{
+	float: right;
+	margin-top: 22px;
+}
+
+.nav_icons{
+	float: left;
+	margin-left: 30px;
+}
+
+/*BANNER*/
+
+.banner{
+	margin-top: 100px;
+	overflow: auto;
+}
+
+.largebanner{
+	float: left;
+	margin-top: 20px;
+}
+
+.largebanner_image{
+	width: 800px;
+}
+
+.smallbanner{
+	margin-top: 20px;
+	float: right;
+}
+
+.featured_products_grid {
+	margin-top: 20px;
+}
+
+.featured_products_grid * +* {
+	margin-left: 20px;
+}
+
+.featured_products{
+	width: 196px;
+	float:left;
+	height: 220px;
+	background-color:#E5E5E5;
+	z-index: 2;
+}
+
+.product_title{
+	margin: 10px;
+}
+
+.left_column{
+	width: 510px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.right_column{
+	width: 510px;
+	float: right;
+	margin-top: 20px;
+}
+
+.key_benefits_grid{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.benefits_title{
+	width: 510px;
+}
+
+.key_benefits{
+	background-color: #8693a0;
+	background-image: url(https://www4-static2.gog.com/bundles/gogwebsitefrontpage/img/about_gog_bg_2x.81e15458.png);
+	flex:1;
+	height: 128px;
+	border: 1px solid white;
+}
+
+article{
+	overflow: hidden;
+}
+
+.article_grid {
+	height: 1342px;
+	background-color: red;
+	z-index: 2;
+	box-shadow: ;
+}
+
+.article_item {
+	height: 122px;
+	background-color: #E5E5E5 ;
+	overflow: hidden;
+}
+
+.article_image{
+	width: 200px;
+	float: left
+}
+
+.article_text{
+	float: right;
+	margin:10px;
+	color: #262626;
+	width: 280px;
+}
+
+p.article_copy {
+	margin-top: 10px;
+	font-size: 0.8rem;
+}
+
+.addtional_info{
+	height: 60px;
+	background-color: #E5E5E5;
+	text-align: center;
+}
+
+a.more{
+	margin-top: 10px;
+	color: #262626;
+}
+
+.section_header{
+	display: inline-block;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+h3.inactive{
+	color: #e1e1e1;
+}
+
+.product_grid {
+	height: 1520px;
+	background-color: red;
+	z-index: 2;
+	box-shadow: ;
+}
+
+.product_item {
+	height: 60px;
+	background-color: #E5E5E5 ;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+
+.product_image{
+	width: 100px;
+	float: left
+}
+
+.product_text{
+	float: left;
+	margin:10px;
+	color: #262626;
+	width: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.mainfooter{
+	overflow: auto;
+}
+
+.mainfooter_left{
+	padding: 30px 0px 25px 0px;
+	float: left;
+}
+
+.mainfooter_right{
+	padding: 30px 0px 25px 0px;
+	float: right;
+}
+
+
+.inline_menu{
+	display: inline-block;
+}
+
+
+.footer_menu{
+	color: #ccc;
+	font-size: 0.81rem;
+	padding-right: 10px
+}
+
+.mainfooter_hr{
+	border:none;
+	border-bottom: 0.5px solid #373737;
+}
+
+.sitemap_container{
+	height: 200px;
+}
+
+.sitemap_footer{
+	width: 192px;
+	padding:20px 20px 20px 0px;
+	float: left;
+}
+
+.sitemap_title{
+	color: white;
+	font-size: 0.81rem;
+}
+
+.sitemap{
+	margin-top: 16px;
+}
+
+.sitemap_menu+li{
+	line-height: 25px;
+}
+
+.social_media{
+	display: flex;
+	justify-content: space-between;
+	width: 1060px;
+	padding: 20px 0px 20px 0px;
+}	
+
+
+.social_media_buttons{
+	padding: 10px;
+	background-color: #303030;
+	width: auto;
+	border-radius: 1px;
+	color: #8a8a8a;
+	font-size: 0.75rem;
+}
+
+.social_media_buttons:hover{
+	background-color: #404040;
+}
+
+.global_footer{
+	background-color: #1d1d1d;
+	color: #696969;
+	height: 60px;
+	
+}
+
+
+
+.global_footer_left{
+	padding-top: 20px;
+	float: left;
+
+}
+
+.global_footer_menu{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 0.6rem;
+	color:  #8a8a8a;
+}
+
+.global_footer_right{
+	padding-top: 20px;
+
+	float: right;
+
+}
+
+
